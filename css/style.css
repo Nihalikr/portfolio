@@ -1,0 +1,80 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #676858;
+	font-weight: 300;
+}
+
+hr {
+    border: none ;
+    line-height: 200%;
+    border-bottom: 1px solid black
+    background-color: black;
+}
+.puppy{width:100%;}
+.title-full {
+	font-size: 60px;
+}
+.title-short {
+	font-size: 60px;
+}
+h2,
+h3,
+h4 {
+	font-weight:800 ;
+	font-size: 40px;
+}
+.text-thin {
+	font-weight: 100;
+}
+.img-type{
+	display:block;
+	max-width: 100%;
+	
+}
+.logo {
+	width: 200px;
+	margin-top: 20px;
+}
+.second-text {
+	color: #bcbbbb;
+}
+.type-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.type {
+	width: 100%;
+	padding: 40px;
+}
+@media screen and (max-width: 700px) {
+	.type {
+		width: 50%;
+		padding: 10px;
+	}
+
+}
+
+
+@media screen and (min-width: 451px) {
+	.title-full {
+		display: inline-block;
+	}
+	.title-short {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.type {
+		width: 100%;
+		padding: 10px;
+	}
+	.title-full {
+		display: none;
+	}
+	.title-short {
+		display: inline-block;
+	}
+}
